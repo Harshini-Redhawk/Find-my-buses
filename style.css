@@ -1,0 +1,82 @@
+.{
+    margin: 0;
+    padding:0;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+
+}
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 6px;
+    background-color:white;
+    margin: 8px ;
+    margin-left: 40%;
+    margin-bottom: 15%;
+    transition: 0.5s;
+}
+.bar1,.bar2,.bar3:hover{
+    color: white;
+}
+  
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+nav{
+
+    background-color: black;
+    color: white;
+    padding:15px;
+}
+li,h1,ul,.container{
+    display:inline-block;
+
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color:white;
+}
+.body-text{
+    text-align: center;
+}
+
+input{
+    width: 30%;
+    padding: 15px;
+    margin-left: 35%;
+    margin-top:50px;
+    
+}
+.services{
+    color:black;
+    background-color: grey;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
